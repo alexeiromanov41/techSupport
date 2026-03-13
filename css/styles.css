@@ -1,4 +1,3 @@
-/* styles.css */
 * {
 	margin: 0;
 	padding: 0;
@@ -7,8 +6,8 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #ffffff; /* белый */
-	color: #000000; /* черный */
+	background-color: #ffffff;
+	color: #000000;
 	line-height: 1.6;
 	padding: 20px;
 }
@@ -26,7 +25,7 @@ h1 {
 }
 
 .accordion {
-	border: 2px solid #ff8c00; /* оранжевый */
+	border: 2px solid #ff8c00;
 	border-radius: 8px;
 	overflow: hidden;
 }
@@ -40,7 +39,7 @@ h1 {
 }
 
 .accordion-header {
-	background-color: #ff8c00; /* оранжевый */
+	background-color: #ff8c00;
 	color: #ffffff;
 	padding: 15px 20px;
 	font-size: 1.2rem;
@@ -50,21 +49,21 @@ h1 {
 }
 
 .accordion-header:hover {
-	background-color: #e07b00; /* темнее оранжевый */
+	background-color: #e07b00;
 }
 
 .accordion-content {
-	display: none; /* скрыто по умолчанию */
+	display: none;
 	background-color: #ffffff;
 	padding: 20px;
 }
 
 .accordion-content.active {
-	display: block; /* показывается при добавлении класса active */
+	display: block;
 }
 
 .pdf-btn {
-	background-color: #00bfff; /* голубой */
+	background-color: #00bfff;
 	color: #000000;
 	border: none;
 	padding: 12px 24px;
@@ -79,10 +78,10 @@ h1 {
 }
 
 .pdf-btn:hover {
-	background-color: #009acd; /* более тёмный голубой */
+	background-color: #009acd;
 }
 
-/* Адаптивность для мобильных устройств */
+/* Адаптивность */
 @media (max-width: 600px) {
 	h1 {
 		font-size: 1.5rem;
